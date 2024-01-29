@@ -72,19 +72,7 @@ class Cycling extends workout {
 class app {
   #map;
   #mapE; //mapevent when click
-  #workouts = [
-    {
-      coords: [25.368225391314155, 55.41769981384278],
-      distance: 1,
-      duration: 12,
-      date: '2024-01-28T02:53:46.953Z',
-      id: '6410426953',
-      type: 'running',
-      cadence: 11,
-      pace: 12,
-      description: 'Running on January 28',
-    },
-  ];
+  #workouts = [];
   #mapZoom = 14;
   constructor() {
     this._getposition();
